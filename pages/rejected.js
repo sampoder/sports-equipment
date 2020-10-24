@@ -26,29 +26,14 @@ export default function Home() {
       <main className={styles.main} style={{ backgroundColor: "#f04747" }}>
         <code className={styles.code}>Student Council 2020/21</code>
         <h1 className={styles.title} style={{ fontSize: "3em" }}>
-          Sorry, we couldn't add the song.
+          Sorry, one item at a time.
         </h1>
         <p style={{ fontSize: "1.5em" }}>
-          This is because our filters detected the song as being explicit and not suitable for school.
+          We have limited stock and want to share the joy of sport with everyone.
         </p>
-
-        <a
-          href="/"
-          className={styles.card}
-          style={{
-            fontSize: "1.5em",
-            background: "none",
-            padding: "10px",
-            color: "white",
-            maxWidth: '200px'
-          }}
-        >
-          ← Go back.
-        </a>
         <p>
-          Built by Sam Poder, please email{" "}
-          <a href="mailto:23samuel.p@gwa.edu.sg">23samuel.p@gwa.edu.sg</a> for
-          support. Open sourced <a href="https://github.com/sampoder/playlist-wizard">here</a>.
+          Built by Sam Poder, open sourced{" "}
+          <a href="https://github.com/sampoder/playlist-wizard">here</a>.
         </p>
       </main>
     </div>

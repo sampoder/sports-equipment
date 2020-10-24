@@ -19,52 +19,36 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>School Playlist Wizard</title>
+        <title>School Equipment Lending</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <code className={styles.code}>Student Council 2020/21</code>
         <h1 className={styles.title} style={{ fontSize: "3em" }}>
-          Contribute to our School Playlist
+          School Equipment Lending
         </h1>
         <p style={{ fontSize: "1.5em" }}>
-          Every day we'll be playing some epic tunes as school starts, add your
-          favourite songs to the playlist using this site!{" "}
-          <a href="https://open.spotify.com/playlist/2ty0IlJI65OqUvx1COSZ4f?si=v9LLuir6Qbm4aWB8D9as2g">
-            Listen to the full playlist
-          </a>
-          .
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore. Consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore.
         </p>
-        <form action="/api/add">
+        <form action="/api/lend">
           <input
             type="text"
             className={styles.card}
             style={{
-              minWidth: "100px",
+              width: "87%",
               fontSize: "1.5em",
               background: "none",
               padding: "10px",
               color: "white",
             }}
-            id="song"
-            name="song"
+            id="email"
+            name="email"
+            type="email"
             required
-            placeholder="Song name"
-          />
-          <input
-            type="text"
-            className={styles.card}
-            style={{
-              minWidth: "100px",
-              fontSize: "1.5em",
-              background: "none",
-              padding: "10px",
-              color: "white",
-            }}
-            id="artist"
-            name="artist"
-            placeholder="Artist (optional)"
+            placeholder="Enter your email to begin."
           />
           <input
             className={styles.card}
@@ -79,9 +63,8 @@ export default function Home() {
           />
         </form>
         <p>
-          Built by Sam Poder, please email{" "}
-          <a href="mailto:23samuel.p@gwa.edu.sg">23samuel.p@gwa.edu.sg</a> for
-          support. Open sourced <a href="https://github.com/sampoder/playlist-wizard">here</a>.
+          Built by Sam Poder, open sourced{" "}
+          <a href="https://github.com/sampoder/playlist-wizard">here</a>.
         </p>
       </main>
     </div>

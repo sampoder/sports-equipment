@@ -16,12 +16,12 @@
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  background-color: #338eda;
+  background-color: #ba4242;
   color: white;
 }
 
 .title a {
-  color: #0070f3;
+  color: #9e3232;
   text-decoration: none;
 }
 
