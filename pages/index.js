@@ -29,9 +29,9 @@ export default function Home() {
           Sports Equipment Lending
         </h1>
         <p style={{ fontSize: "1.5em" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore. Consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore.
+          The Student Council has began a program of lending out sports
+          equipment to students for one week at a time. Currently only footballs
+          are available. You can sign up with this form.
         </p>
         <form action="/api/lend">
           <input
