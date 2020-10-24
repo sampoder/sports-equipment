@@ -64,7 +64,7 @@ export default function Home() {
         </form>
         <p>
           Built by Sam Poder, open sourced{" "}
-          <a href="https://github.com/sampoder/playlist-wizard">here</a>.
+          <a href="https://github.com/sampoder/sports-equipment">here</a>.
         </p>
       </main>
     </div>
