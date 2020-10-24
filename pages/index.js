@@ -19,14 +19,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>School Equipment Lending</title>
+        <title>Sports Equipment Lending</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <code className={styles.code}>Student Council 2020/21</code>
         <h1 className={styles.title} style={{ fontSize: "3em" }}>
-          School Equipment Lending
+          Sports Equipment Lending
         </h1>
         <p style={{ fontSize: "1.5em" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
